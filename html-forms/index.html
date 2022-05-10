@@ -5,17 +5,20 @@
     <h1>  Coding Form! </h1>
     <div>
       <form action="http://email.com/email/php">
-        <div>Email:
-          <br/>
+
+        <label>Email: </label>
+        <div>
           <input type="text" name="Email" size="12" maxlength="25"/>
         </div>
-        <div>Why is coding cool <br/>
+        <label>Why is coding cool </label>
+        <div>
           <select name="Option">
             <option value="interesting">Because it's interesting</option>
             <option value="radio">Because it's fun</option>
             <option value="powerful">Because it's powerful</option>
           </select> </div>
-        <p>Favorite Language (choose one)</p>
+
+        <p> <label> Favorite Language (choose one) </label> </p>
         <div>
           <input type="radio" name="genre" value="HTML" /> HTML
           <input type="radio" name="genre" value="CSS" />
@@ -23,12 +26,16 @@
           <input type="radio" name="genre" value="Javascript" />
           Javascript
         </div>
-        <br>
-        <div>Would you like to sign up for more information?
-          <br/> <br>
+
+
+
+        <p> <label>Would you like to sign up for more information?</label> </p>
+        <div>
+
           <input type="checkbox" name="service" value="Sign Up"/> Sign me up!
           <br>
           Comments
+
         </div>
 
         <textarea name="comments" cols="30" rows="5"> </textarea>
