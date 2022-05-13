@@ -24,3 +24,7 @@ img {
 .column-two-third {
   width: 75%;
 }
+
+.column-fourth {
+  width: 25%;
+}
