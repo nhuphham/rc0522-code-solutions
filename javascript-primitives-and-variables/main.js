@@ -4,9 +4,9 @@ var totalPets = 3;
 console.log('value of fullName:', fullName);
 console.log('value of isCool', isCool);
 console.log('value of totalPets:', totalPets);
-console.log('type of', typeof 'Nhu Pham');
-console.log('type of', typeof true);
-console.log('type of', typeof 3);
+console.log('type of', typeof fullName);
+console.log('type of', typeof isCool);
+console.log('type of', typeof totalPets);
 
 var unknown = null;
 var never;
