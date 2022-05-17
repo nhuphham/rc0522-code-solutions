@@ -29,16 +29,11 @@ img {
 
 .row {
   display: flex;
-  flex-basis: auto;
-  margin: auto;
-  text-align: center;
-  justify-content: center;
 }
 
 .column-full {
   display: flex;
   flex-basis: auto;
-  text-align: center;
 }
 
 h3 {
