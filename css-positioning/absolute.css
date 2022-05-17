@@ -13,14 +13,14 @@
 .emoji {
   font-size: 3rem;
   position: absolute;
-  left: 240px;
+  right: 20px;
   top: 20px;
   width: auto;
 }
 
 .joke {
   position: absolute;
-  top: 160px;
+  bottom: 2px;
   right: 50px;
   left: 0;
   width: 300px;
@@ -37,9 +37,8 @@
 
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
-  height: 200px;
-  width: 300px;
-  top: 100px;
+  height: 300px;
+  width: 100%;
   position: absolute;
 
   /* your code here */

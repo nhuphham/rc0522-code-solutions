@@ -3,9 +3,8 @@ html {
 }
 
 .page-title {
+  width: 100%;
   font-size: 3rem;
   text-align: center;
   position: fixed;
-  top: 330px;
-  left: 450px;
 }
