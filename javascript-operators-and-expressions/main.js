@@ -20,10 +20,10 @@ var grade = (quizzes + midterm + final) / 3;
 console.log('value of grade', grade);
 console.log('type of grade', typeof grade);
 
-var firstName = 'nhu ';
+var firstName = 'nhu';
 var lastName = 'pham';
 
-var fullName = firstName + lastName;
+var fullName = firstName + ' ' + lastName;
 console.log('value of fullName', fullName);
 console.log('type of fullName', typeof fullName);
 
@@ -38,5 +38,5 @@ console.log('value of isSparta', isSparta);
 console.log('type of isSparta', typeof isSparta);
 
 var motto = fullName;
-console.log(motto, ' is the GOAT');
+console.log('value of motto', motto, 'is the GOAT');
 console.log('type of motto', typeof motto);
