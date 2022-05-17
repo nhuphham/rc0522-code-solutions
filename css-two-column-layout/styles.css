@@ -1,12 +1,10 @@
 body {
   font-family: Karla, Arial, Helvetica, sans-serif;
   max-width: 85%;
-  position: relative;
 }
 
 * {
   margin-left: 80px;
-  position: relative;
 }
 
 h1 {
@@ -25,7 +23,8 @@ h1 {
 
 img {
   max-width: 65%;
-  margin: 18px 11px 69px -10px;
+  margin: -24px 7px 103px 3px;
+  padding: 14px;
   position: relative;
 }
 
@@ -35,19 +34,17 @@ button {
   color: rgb(203 82 82);
   font-size: 15px;
   font-style: karla, arial;
-  font-weight: 200;
   margin: auto;
   padding: 5px 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 
 .column-full > p {
   font-size: 13px;
   width: 60%;
-  margin-left: 168px;
+  margin-left: 141px;
   margin-top: 20px;
   margin-bottom: 80px;
   text-align: center;
@@ -62,7 +59,7 @@ button:hover {
 
 .column-two {
   max-width: 30%;
-  margin: 5px 55px 36px -87px;
+  margin: -20px 41px 35px -87px;
   color: rgb(0 0 0);
 }
 
