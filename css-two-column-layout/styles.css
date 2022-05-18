@@ -42,13 +42,14 @@ button {
 }
 
 .column-full > p {
-  font-size: 13px;
-  width: 60%;
-  margin-left: 141px;
+  font-size: 14px;
+  width: 70%;
+  margin-left: 87px;
   margin-top: 20px;
   margin-bottom: 80px;
   text-align: center;
   color: rgb(136 136 136);
+  line-height: 1.8;
 }
 
 button:hover {
