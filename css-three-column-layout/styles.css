@@ -36,9 +36,8 @@ body {
 }
 
 img {
-  margin-left: 52px;
-  width: 67.5%;
-  padding: 70px;
+  margin: 70px 0 42px 122px;
+  width: 17.5%;
   position: relative;
 }
 
@@ -49,7 +48,7 @@ img {
 h3 {
   width: auto;
   margin: auto;
-  padding-bottom: 14px;
+  padding-bottom: 15px;
   text-align: center;
   justify-content: center;
 }
@@ -57,10 +56,11 @@ h3 {
 p {
   height: 150px;
   width: 250px;
-  font-size: 14px;
+  font-size: 14.5px;
   margin: auto;
   text-align: center;
-  line-height: 1.4;
+  line-height: 1.5;
+  color: rgb(213 213 213);
 }
 
 h1 {
