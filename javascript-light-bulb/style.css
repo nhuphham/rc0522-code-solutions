@@ -1,0 +1,29 @@
+.on-body {
+  margin: auto;
+  background-color: rgb(211 211 189);
+  padding-top: 250px;
+}
+
+.off-body {
+  margin: auto;
+  background-color: rgb(25 25 25);
+  padding-top: 250px;
+}
+
+.lightbulb {
+  height: 425px;
+  width: 425px;
+  margin: auto;
+  background-color: rgb(235 235 133);
+  border-radius: 50%;
+  box-shadow: 0 25px 50px 30px rgb(228 228 180);
+}
+
+.off-light-bulb {
+  height: 425px;
+  width: 425px;
+  margin: auto;
+  background-color: rgb(62 62 62);
+  border-radius: 50%;
+  box-shadow: 12px 25px 50px 30px rgb(0 0 0);
+}
