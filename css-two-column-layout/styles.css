@@ -1,0 +1,74 @@
+body {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  max-width: 85%;
+}
+
+* {
+  margin-left: 80px;
+}
+
+h1 {
+  font-size: 55px;
+  text-align: center;
+  margin: 80px 220px 10px 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  justify-content: center;
+  position: relative;
+}
+
+img {
+  max-width: 65%;
+  margin: -24px 7px 103px 3px;
+  padding: 14px;
+  position: relative;
+}
+
+button {
+  background-color: rgb(255 255 255);
+  border: 2px solid rgb(203 82 82);
+  color: rgb(203 82 82);
+  font-size: 15px;
+  font-style: karla, arial;
+  margin: auto;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.column-full > p {
+  font-size: 14px;
+  width: 70%;
+  margin-left: 87px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: rgb(136 136 136);
+  line-height: 1.8;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.column-two {
+  max-width: 30%;
+  margin: -20px 41px 35px -87px;
+  color: rgb(0 0 0);
+}
+
+.column-two > p {
+  color: rgb(125 125 125);
+  line-height: 1.7;
+}
+
+.column-one {
+  margin: -20px -55px 50px 30px;
+}
