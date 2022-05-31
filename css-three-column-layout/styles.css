@@ -22,11 +22,11 @@ body {
   margin: 44px 33px 33px 96px;
   border-radius: 50%;
   background-color: rgb(255 255 255);
-  position: absolute;
+  display: flex;
 }
 
 .column-one {
-  width: auto;
+  width: 850px;
   margin: auto;
 }
 
@@ -36,9 +36,9 @@ body {
 }
 
 img {
-  margin: 70px 0 42px 122px;
-  width: 17.5%;
-  position: relative;
+  max-width: 55px;
+  max-height: 55px;
+  margin: auto;
 }
 
 .row {
