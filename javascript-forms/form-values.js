@@ -7,4 +7,5 @@ form.addEventListener('submit', event => {
     message: form.elements.message.value
   };
   console.log(result);
+  form.reset();
 });
